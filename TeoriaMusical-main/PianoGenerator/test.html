@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Title</title>
+<link rel="stylesheet" href="style.css">
+<script src="piano_generator.js"></script>
+</head>
+<body>
+    <div id ="piano_0" class="piano_container"></div>
+</body>
+<script>
+    piano({
+        tag: "piano_0",
+        octaves: 2,
+        number: "relevant",
+        names: "all",
+        tonic: "C",
+        pressed: [
+            "C", "E", "G", "C"
+        ]
+    });
+    </script>
+</html>
